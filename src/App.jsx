@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='bg-slate-800 w-2/6 h-10'>
    <h1 className='text-3x1 font-bold underline'>
     Hello world!
    </h1>
