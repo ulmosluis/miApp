@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className='inline-flex  bg-slate-200'>
+      <div className='inline-flex  bg-primary min-h-screen'>
         <h1 className="text-3xl font-bold underline">
           Hello world!
         </h1>        <h1 className="text-3xl font-bold underline">

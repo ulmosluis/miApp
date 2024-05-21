@@ -8,7 +8,11 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#5c059c',
+      },
+    },
   },
   plugins: [],
 }
