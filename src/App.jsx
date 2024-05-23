@@ -17,7 +17,8 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <>
+    <Disclosure as="nav" className="bg-gray-400">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -129,7 +130,6 @@ export default function Example() {
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
@@ -148,8 +148,18 @@ export default function Example() {
               ))}
             </div>
           </Disclosure.Panel>
+
         </>
       )}
     </Disclosure>
+    <div class="p-4">
+  <div class="flow-root ...">
+    <div class="my-4 ...">Well, let me tell you something, ...</div>
+  </div>
+  <div class="flow-root ...">
+    <div class="my-4 ...">Sure, go ahead, laugh if you want...</div>
+  </div>
+</div>
+    </>
   )
 }
