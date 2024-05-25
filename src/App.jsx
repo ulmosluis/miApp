@@ -160,6 +160,8 @@ export default function Example() {
     <div class="my-4 ...">Sure, go ahead, laugh if you want...</div>
   </div>
 </div>
+{/* <div class="lg:w-1/2 text-center lg:text-left lg:mr-10 py-10"><img src="/assets/chantal-ulloa3-uGjf24du.png" alt="Doctor" class="max-h-full w-full lg:w-3/10 lg:max-w-none object-cover mx-auto lg:mx-0 rounded-xl" style="object-fit: cover;"></div> */}
+
     </>
   )
 }
