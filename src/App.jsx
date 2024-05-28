@@ -1,5 +1,6 @@
 // import { useState } from 'react'
-// import viteLogo from '/vite.svg'
+//import viteLogo from '/vite.svg'
+import beach-house-interior.jpg from '../components'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
