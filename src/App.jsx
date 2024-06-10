@@ -1,6 +1,10 @@
 // import { useState } from 'react'
-//import viteLogo from '/vite.svg'
-// import beachHouseInterior1.jpg from '../components'
+//import viteLogo from '/vite.svg' 
+import reactLogo from './assets/react.svg'
+import beachHouse from './assets/beachHouse.jpg'
+import beachHouseInterior1 from './assets/beachHouseInterior1.jpg'
+import beachHouseInterior2 from './assets/beachHouseInterior2.jpg'
+
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -168,9 +172,15 @@ export default function Example() {
       <p class="text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400">Entire house</p>
     </div>
 <div class="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
-      <div class="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy">eeee dee ere e sssd f sdsdsds sdwsdwewe we wwwe e wewe  rwwrw   r rr trt rtrtrt rtr rtrtrtrtrtr sdsds</div>
-      <div class="hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy">weeeevefevevv  ef ee erere feererer e er ere r w</div>
-      <div class="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy">dsddw wwee rer re rerer e re ere er er erer er er er erereewewe ttyjgdfere we</div>
+      
+          <img src={beachHouse} className="logo react" alt="React logo" />
+        
+
+          <img src={beachHouseInterior1} className="logo react" alt="React logo" />
+   
+
+          <img src={beachHouseInterior2} className="logo react" alt="React logo" />
+   
 </div>
 <dl class="mt-4 text-xs font-medium flex items-center row-start-2 sm:mt-1 sm:row-start-3 md:mt-2.5 lg:row-start-2">
       <dt class="sr-only">Reviews</dt>
