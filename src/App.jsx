@@ -1,9 +1,9 @@
 // import { useState } from 'react'
 //import viteLogo from '/vite.svg' 
 import reactLogo from './assets/react.svg'
-import beachHouse from './assets/beachHouse.jpg'
-import beachHouseInterior1 from './assets/beachHouseInterior1.jpg'
-import beachHouseInterior2 from './assets/beachHouseInterior2.jpg'
+import beachHouse from '../components/beachHouse.jpg'
+import beachHouseInterior1 from '../components/beachHouseInterior1.jpg'
+import beachHouseInterior2 from '../components/beachHouseInterior2.jpg'
 
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
