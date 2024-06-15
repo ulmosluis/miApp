@@ -4,15 +4,16 @@ import Services from "./Services";
 import About from "./About";
 import Navbar from "../components/Header";
 import Footer from "../components/Footer";
-import Whatsapp from "../components/whatsapp";const LandingPage = () => {
+import Whatsapp from "../components/whatsapp"; 
+const LandingPage = () => {
   return (
     <div>
-      <Navbar />
-      <Whatsapp />
+     <Navbar />
+      <Whatsapp /> 
       <Home />
       <About />
       <Services />
-      <Footer />
+      <Footer /> 
     </div>
   )
 }
