@@ -1,9 +1,14 @@
+// Whatsapp.jsx
+
 import React from 'react';
 
-class Whatsapp extends React.Component {
-  render() {
-    return <h2>Hi, I am a whatsapp!</h2>;
-  }
-}
+const Whatsapp = () => {
+  return (
+    <div>
+      {/* WhatsApp integration or widget */}
+      <p>WhatsApp widget or integration here</p>
+    </div>
+  );
+};
 
 export default Whatsapp;

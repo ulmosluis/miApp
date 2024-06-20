@@ -4,12 +4,12 @@ import Services from "./Services";
 import About from "./About";
 import Navbar from "./components/Header";
 import Footer from "./components/Footer";
-import Whatsapp from "./components/whatsapp"; 
+// import Whatsapp from "./components/whatsapp"; 
 const LandingPage = () => {
   return (
     <div>
      <Navbar />
-      <Whatsapp /> 
+      {/* <Whatsapp />  */}
       <Home />
       <About />
       <Services />
