@@ -4,7 +4,7 @@ import React from 'react';
 import Home from './Home';
 import Services from './Services';
 import About from './About';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar2';
 import Footer from './components/Footer';
 import Whatsapp from './components/Whatsapp';
 
